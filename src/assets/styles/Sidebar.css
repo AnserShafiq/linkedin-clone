@@ -1,0 +1,83 @@
+.cardAtLeft{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5%;
+    flex:0.2;
+}
+.leftBarOne{
+    border:0.1px solid #dfdedb;
+    background-color: white;
+    border-radius: 5px; 
+    text-align: center;
+}
+.leftBarOne > img {
+    object-fit: fill;
+    height:80px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    width:100%;
+    margin-bottom: -30px;
+}
+.avatarContainer{
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+}
+.infoToShow > h4{
+    font-size: 16px;
+    font-weight: 500;
+}
+.infoToShow > h4:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    color: rgb(43, 43, 43);
+}
+.infoToShow > p {
+    font-size: 12px;
+    color: gray;
+}
+.detailsSection{
+    margin-top: 0.5rem;
+    padding: 1rem 0;
+    border:0.1px solid #dfdedb;
+}
+.detailBody{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0.5rem 1rem;
+    font-size: 11px;
+    color: gray;
+}
+.detailBody:hover{
+    cursor: pointer;
+    background-color: #f1f2ee;
+}
+
+.Number{
+    color: #4475c6;
+    font-weight: 600;
+}
+
+.sidebarLeft_Recent {
+    margin-top: 10px;
+    background-color: white;
+    border-radius: 5px;
+    border: 0.1px solid #dfdedb;
+  }
+  .sidebarLeft_Recent > div > p {
+    font-size: 14px;
+    color: gray;
+    padding: 5px 10px;
+  }
+  .sidebarLeft_Recent > h4 {
+    font-size: 14;
+    color: gray;
+    padding: 5px 10px;
+    font-weight: bold;
+  }
+  .hashtags:hover {
+    cursor: pointer;
+    background-color: #f2f1ee;
+    color: black;
+  }
