@@ -36,7 +36,7 @@ const Feeds = () => {
             <FlipMove>
               {Posts && Posts.map((e)=>(
                   <FeedPost 
-                  Avatar={e.Avatar}
+                  AvatarURL={e.Avatar}
                   Description={e.Description}
                   Message={e.Message}
                   Name={e.Name}/>
